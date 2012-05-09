@@ -1,0 +1,12 @@
+{
+  "name": "Link Dusted charts to Tomahawk",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add Tomahawk links to albums on dustedmagazine.com chart pages.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://www.dustedmagazine.com/charts/*"],
+      "js" : ["script.js"]
+    }
+  ]
+}
